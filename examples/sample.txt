@@ -1,0 +1,2 @@
+<!-- Purpose: Synthetic landing-page copy for the offline CLI example. -->
+We make work better. Trusted by everyone. Click here.
