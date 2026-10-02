@@ -34,6 +34,10 @@ Every dimension exposes its exact instruction, weight and `weak_below`. Scores n
 
 This tool never rewrites copy or suggests replacements. It is a rubric-based critique aid, not an editor or calibrated benchmark. A dimension with no citation scored above its configured threshold. Jev reads literally, can be swayed by injected text, and is weak at counting, dates and arithmetic; code handles offsets and weighting. English works best.
 
+## Shareable demo report
+
+Run `npm run demo:report` to capture this repository’s bundled example as one JSON object with the project purpose, version and complete demo output. The command fails if the demo fails, so the report is useful when sharing a reproducible first look or reporting unexpected behavior. The bundled demo’s data and safety boundaries still apply.
+
 ## Validation
 
 `npm run check`, `npm run typecheck`, `npm test`, and `npm run demo` run in CI on Node 22 and 24. The live smoke is opt-in and makes at most two synthetic paid requests.
