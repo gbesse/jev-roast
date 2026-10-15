@@ -47,3 +47,11 @@ Run `npm run demo:report` to capture this repository’s bundled example as one 
 [DecisionPacks](https://github.com/gbesse/decisionpacks) · [Question Forge](https://github.com/gbesse/question-forge) · [jev-screen](https://github.com/gbesse/jev-screen)
 
 Independent project; not affiliated with TypeSafe AI. [TypeSafe API](https://docs.typesafe.ai/api) · [known model limitations](https://docs.typesafe.ai/model-jaggedness/jev-1.13)
+
+## Unicode citation coordinates / Coordonnées Unicode / Coordenadas Unicode
+
+EN: Spans now declare `offsetUnit: utf16-code-unit` for existing JavaScript `start`/`end`, plus `byteStart`/`byteEnd` in the UTF-8 encoding of the supplied string. Neither coordinate system changes source quotes. This allows non-JavaScript consumers to slice accented/emoji text correctly. Review thresholds and semantic scores are bounded before use; invented second-pass citations fail instead of disappearing. Packs are snapshotted before async evaluation. UTF-8 coordinates describe the supplied JavaScript string, not authenticated original file bytes or validated writing-quality judgments.
+
+FR : Les passages déclarent désormais `offsetUnit: utf16-code-unit` pour les `start`/`end` JavaScript existants, et `byteStart`/`byteEnd` dans l’encodage UTF-8 de la chaîne fournie. Aucun système ne modifie les citations. Les consommateurs externes peuvent découper correctement accents/emoji. Seuils et scores sont bornés ; des citations inventées échouent au lieu de disparaître. Les packs sont capturés avant attente. Ces coordonnées décrivent la chaîne JavaScript fournie, pas les octets originaux authentifiés ni une qualité rédactionnelle validée.
+
+ES: Pasajes declaran `offsetUnit: utf16-code-unit` para `start`/`end` JavaScript existentes, y `byteStart`/`byteEnd` en UTF-8 de la cadena proporcionada. No cambian citas. Permite a consumidores externos cortar correctamente acentos/emoji. Umbrales/scores limitados; citas inventadas fallan en lugar de desaparecer. Captura packs antes de esperar. Coordenadas describen la cadena JavaScript, no bytes originales autenticados ni juicios de calidad validados.
