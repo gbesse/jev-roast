@@ -1,6 +1,6 @@
 {
   "name": "@gbesse/jev-roast",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Score declared writing dimensions and cite only exact source spans for weak results.",
   "type": "module",
   "exports": {
