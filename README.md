@@ -62,3 +62,11 @@ FR : La première réponse et ses compteurs sont copiés avant le second passage
 EN: The first response and its counters are copied before pass two; providers reusing objects cannot rewrite the initial score during citation selection. Citations remain own properties even for IDs such as `__proto__` and require a `choice` response. These checks preserve pipeline evidence; they do not measure editorial quality.
 
 ES: La primera respuesta y sus contadores se copian antes del segundo paso; un proveedor que reutiliza objetos no puede reescribir la puntuación inicial al elegir citas. Las citas siguen siendo propiedades propias incluso con ID como `__proto__` y exigen respuesta `choice`. Preserva pruebas del pipeline; no mide calidad editorial.
+
+## Couverture des citations / Citation coverage / Cobertura de citas
+
+FR — `citationCoverage` indique, pour chaque dimension faible, les passages source, candidats, omis et leurs identifiants. Au-delà de 255 passages, la sélection est partielle et le rapport HTML le signale ; une citation exacte ne prouve pas une recherche exhaustive.
+
+EN — `citationCoverage` reports source, candidate and omitted spans plus candidate identifiers for each weak dimension. Above 255 spans the search is partial and HTML reports disclose it; an exact quotation does not establish exhaustive retrieval.
+
+ES — `citationCoverage` informa de pasajes fuente, candidatos, omitidos e identificadores por dimensión débil. Con más de 255 pasajes la búsqueda es parcial y el HTML lo indica; una cita exacta no demuestra recuperación exhaustiva.
