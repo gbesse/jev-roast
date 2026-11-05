@@ -70,3 +70,12 @@ FR — `citationCoverage` indique, pour chaque dimension faible, les passages so
 EN — `citationCoverage` reports source, candidate and omitted spans plus candidate identifiers for each weak dimension. Above 255 spans the search is partial and HTML reports disclose it; an exact quotation does not establish exhaustive retrieval.
 
 ES — `citationCoverage` informa de pasajes fuente, candidatos, omitidos e identificadores por dimensión débil. Con más de 255 pasajes la búsqueda es parcial y el HTML lo indica; una cita exacta no demuestra recuperación exhaustiva.
+
+
+## 2026-11-05 — FR / EN / ES
+
+FR : Les nouveaux rapports portent une empreinte du pack complet. `compareRoasts(before,after,pack)` compare scores seulement à pack vérifié et modèle identique ; anciens rapports sans empreinte restent non comparables. Un delta n’est ni causalité ni preuve de meilleure rédaction.
+
+EN: New reports carry a full-pack fingerprint. `compareRoasts(before,after,pack)` compares scores only with verified pack and identical model; legacy reports without fingerprint remain noncomparable. A delta proves neither causality nor better writing.
+
+ES: Informes nuevos llevan huella de pack completo. `compareRoasts(before,after,pack)` compara puntuaciones solo con pack verificado y mismo modelo; informes antiguos sin huella no comparables. Delta no prueba causalidad ni mejor redacción.
